@@ -1743,6 +1743,8 @@ textarea {
   }
 }
 
+.auth-nav {}
+
 .menu-close-modal {
   position: absolute;
   top: 24px;
