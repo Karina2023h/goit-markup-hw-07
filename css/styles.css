@@ -856,10 +856,10 @@ screen and (min-resolution: 3dppx) {
   gap: 24px;
 }
 
-.title,
+/* .title,
 .title-description {
   max-width: 264px;
-}
+} */
 
 .title {
   margin-left: auto;
@@ -1036,13 +1036,24 @@ screen and (min-resolution: 3dppx) {
   }
 }
 
-
+/* .theam {
+  width: calc((100% - 72px) / 4);
+} */
 
 
 /* 3 section */
-.theam {
-  width: calc((100% - 72px) / 4);
+@media only screen and (min-width: 1158px) {
+  .theam {
+    width: calc((100% - 72px) / 4);
+  }
 }
+
+@media only screen and (min-width: 768px) {
+  .theam {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
 
 .section-team {
   background-color: var(--light);
