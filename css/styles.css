@@ -1523,6 +1523,19 @@ screen and (min-resolution: 3dppx) {
 }
 
 
+@media screen and (min-width: 1158px) {
+  .footer-input {
+    width: 264px;
+    margin: 0 24px 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-input {
+    width: 100%;
+    margin: 0 24px 0 0;
+  }
+}
 
 
 
@@ -1853,7 +1866,7 @@ screen and (min-resolution: 3dppx) {
 }
 
 .footer-input {
-  width: 100%;
+  /* width: 100%; */
   height: 40px;
   background-color: #2e2f42;
   border: 1px solid #ffffff;
