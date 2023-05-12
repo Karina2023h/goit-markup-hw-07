@@ -946,16 +946,7 @@ screen and (min-resolution: 3dppx) {
 
 
 
-/* @media screen and (min-width: 768px) {
-  .footer .container {
-    width: 584px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    column-gap: 24px;
-    row-gap: 72px;
-  }
-} */
-
+/*  */
 
 
 
@@ -1539,10 +1530,10 @@ screen and (min-resolution: 3dppx) {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer-input {
     width: 100%;
-    margin: 0 24px 0 0;
+    /* margin: 0 24px 0 0; */
   }
 }
 
@@ -1635,6 +1626,9 @@ screen and (min-resolution: 3dppx) {
   justify-content: center;
   gap: 72px 24px;
 }
+
+
+
 
 /* @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container.foot-nav {
@@ -1914,7 +1908,7 @@ screen and (min-resolution: 3dppx) {
 
 
 .poick-Email {
-  display: flex;
+  /* display: flex; */
   gap: 16px;
 
   justify-content: center;
