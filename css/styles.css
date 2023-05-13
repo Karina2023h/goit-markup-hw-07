@@ -387,10 +387,24 @@ info-link.link:focus {
 .hero {
   background-color: var(--hero-background);
   font-family: 'Roboto', sans-serif;
-  height: 600px;
   text-align: center;
-  padding: 188px 0;
+  padding: 112px 0;
 }
+
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/price/people.jpg);
+  max-width: 1440px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
 
 
 /* phone */
@@ -1175,6 +1189,7 @@ screen and (min-resolution: 2dppx) {
   .section-three-list {
     gap: var(--indent-d) var(--indent);
     gap: 24px;
+    row-gap: 72px;
   }
 }
 
@@ -1183,6 +1198,16 @@ screen and (min-resolution: 2dppx) {
     width: 552px;
   }
 }
+
+
+@media screen and (max-width: 1199px) {
+  .title-description {
+    font-weight: 500;
+  }
+}
+
+
+
 
 
 /* .theam {
@@ -1255,7 +1280,7 @@ screen and (min-resolution: 2dppx) {
   background-color: var(--white-background);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .filter-list {
@@ -1371,9 +1396,8 @@ screen and (min-resolution: 2dppx) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 360px;
-  border: 1px solid #E7E9FC;
-  flex-basis: calc(100%-2*24px)/3;
+
+  flex-basis: calc((100% - 2 * 24px)/3);
 }
 
 
@@ -1417,17 +1441,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 /* hw4 */
-.hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/price/people.jpg);
-  max-width: 1440px;
-  height: 600px;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
 
-}
 
 /* .itom::before {
   display: block;
@@ -1928,7 +1942,7 @@ width: 119px; */
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1157px) {
   .auth-nav .info-link {
     font-size: 12px;
     line-height: 14px;
@@ -2377,9 +2391,9 @@ textarea {
   }
 }
 
-.item-mobile:not(:last-child) {
+/* .item-mobile:not(:last-child) {
   margin-bottom: 40px;
-}
+} */
 
 .mobile-socials-item {
   display: flex;
@@ -2451,7 +2465,7 @@ textarea {
 
 .menu-contacts {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -2477,9 +2491,9 @@ textarea {
   margin-bottom: 48px;
 }
 
-.tel-modal-menu {
+/* .tel-modal-menu {
   margin-bottom: 40px;
-}
+} */
 
 .menu-contacts.active {
   color: #404BBF;
