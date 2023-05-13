@@ -399,21 +399,15 @@ info-link.link:focus {
   margin-right: auto;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
-
-
-
-
-
-/* phone */
 
 @media screen and (max-width: 428px) {
   .hero {
+    background-color: var(--hero-bgc);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/Dark-bg428@1x.jpg);
-
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/Dark-bgtelefon@1x.jpg);
   }
 }
 
@@ -422,15 +416,17 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/Dark-bg428@2x.jpg);
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/Dark-bgtelefon@2x.jpg);
   }
 }
 
-/* tablet */
-@media screen and (min-width: 429px) and (max-width: 767px) {
+@media screen and (min-width: 429px) and (max-width: 768px) {
   .hero {
+    background-color: var(--hero-bgc);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/Dark-bg768@1x.jpg);
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/Dark-bgtelefon@1x.jpg);
   }
 }
 
@@ -439,18 +435,19 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/Dark-bg768@2x.jpg);
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/Dark-bgtelefon@2x.jpg);
   }
 }
 
-/* dectop */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .hero {
+    background-color: var(--hero-bgc);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/_dectop@1x.jpg);
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/peopleoffice1dectop@1x.jpg);
   }
-
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -458,28 +455,10 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/_dectop@2x.jpg)
+        rgba(46, 47, 66, 0.7)),
+      url(../images/galeria/peopleoffice1dectop@2x.jpg);
   }
 }
-
-
-@media screen and (max-width: 769px) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/_dectop@1x.jpg);
-  }
-
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/price/_dectop@2x.jpg)
-  }
-}
-
 
 
 @media screen and (min-width: 1158px) {
