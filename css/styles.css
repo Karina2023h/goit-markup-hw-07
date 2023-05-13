@@ -980,7 +980,10 @@ screen and (min-resolution: 2dppx) {
 /*  */
 
 
-
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 
 
