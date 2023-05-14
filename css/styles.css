@@ -426,7 +426,7 @@ screen and (min-resolution: 2dppx) {
     background-color: var(--hero-bgc);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/galeria/Dark-bgtelefon@1x.jpg);
+      url(../images/galeria/Dark-bgtablet@1x.jpg);
   }
 }
 
@@ -436,7 +436,7 @@ screen and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/galeria/Dark-bgtelefon@2x.jpg);
+      url(../images/galeria/Dark-bgtablet@2x.jpg);
   }
 }
 
