@@ -2281,7 +2281,7 @@ textarea {
   margin: 0;
   list-style: none;
   margin-bottom: auto;
-
+  height: 100%;
 }
 
 @media only screen and (max-width: 767px) {
