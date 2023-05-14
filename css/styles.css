@@ -2212,7 +2212,7 @@ textarea {
   position: fixed;
   top: 0;
   left: 0;
-
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -2332,7 +2332,7 @@ ul {
 }
 
 .mobile-menu {
-  margin-bottom: auto;
+  margin-bottom: 48px;
 }
 
 .mobile-contact-info {
